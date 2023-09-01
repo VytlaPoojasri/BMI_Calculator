@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #FFB6C1, #87CEEB);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    background-color: rgb(244, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #0368d4;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+}
+
+button {
+    background-color: #0368d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #06223f;
+}
+
+.result {
+    font-size: 20px;
+    margin-top: 20px;
+    animation: fadeIn 1s;
+}
+
+.underweight, .normal-weight, .overweight, .obese {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+.category-image {
+    max-width: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.footer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #252020;
+    padding: 2px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 5px;
+    border-radius: 0 0 10px 10px;
+    clear: both;
+}
